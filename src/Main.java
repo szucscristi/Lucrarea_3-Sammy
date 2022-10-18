@@ -2,7 +2,7 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class Main
 {
-    static int minute;
+    static int minute; 
     public static void main(String[] args)
     {
         chenar();
@@ -14,7 +14,7 @@ public class Main
         System.out.print("Precizati cate minute utilizatorul a folosit o piesa de echipament sportiv: ");
         Scanner inputDevice = new Scanner(System.in);
         minute=inputDevice.nextInt();
-        inputDevice.nextLine();
+        inputDevice.nextLine(); //not necessary
         return minute;
     }
     public static void chenar()
